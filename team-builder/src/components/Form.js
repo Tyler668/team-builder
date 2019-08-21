@@ -3,8 +3,6 @@ import React, { useState } from "react";
 const Form = props => {
     const [member, setMember] = useState({ name: "", age: "", power: "" });
     const changeHandler = event => {
-
-        console.log(event.target.value);
         setMember({ ...member, [event.target.name]: event.target.value });
     };
     const submitForm = event => {

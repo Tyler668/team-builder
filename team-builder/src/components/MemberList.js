@@ -1,7 +1,6 @@
 import React from "react";
 
 const MemberList = props => {
-  console.log(props);
   return (
     <div className="memberList">
       {props.memberList.map(member => {
