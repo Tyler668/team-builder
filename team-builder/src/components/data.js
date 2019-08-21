@@ -21,6 +21,6 @@ export default [
         name: 'Tyler',
         age: "22",
         power:
-            "Anxiety"
+            "Anxiety, Sarcasm"
     }
 ];
