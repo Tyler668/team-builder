@@ -50,11 +50,13 @@
 
 label{
   margin: 10px 20px 0 20px;
+  font-family: 'PT Mono', monospace;
 }
 
 .power{
   display: flex;
   flex-flow: column;
+  margin-top: 10px;
 }
 
 button{
