@@ -31,3 +31,104 @@
     transform: rotate(360deg);
   }
 }
+
+
+.teamContainer{
+  display: flex; 
+  flex-flow: row wrap;
+  width: 100%;
+  margin-top: 100px;
+}
+.memberList{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-flow: row wrap;
+}
+.formDiv{
+  display: flex;
+  justify-content: center;
+
+  align-content: center;
+ 
+}
+
+label{
+  margin: 10px 20px 0 20px;
+}
+
+.power{
+  display: flex;
+  flex-flow: column;
+}
+
+button{
+  width: 100px;
+  height:40px;
+  background: white;
+  color: #282c34;
+  border-radius: 15px;
+  font-weight: 600;
+  border: none;
+  margin: 10px;
+}
+
+input{
+height: 60%;
+margin-top:7%;
+}
+
+button:active{
+  background: #282c34;
+  color: white;
+  border: 1px solid white;
+}
+
+
+textarea{
+  margin-top: 15px;
+}
+
+
+.memberCard{
+  background: whitesmoke;
+  border-radius: 10px;
+  color: #282c34;
+  padding: 10px;
+  margin: 20px;
+  width: 20%;
+  
+}
+
+.memberCard h2{
+  font-size: 4rem;
+  margin-top: 0;
+}
+.memberCard h3{
+  font-size: 2rem;
+  margin-top: 0;
+}
+.memberCard p{
+  font-size: 1.4rem;
+}
+
+
+.daForm{
+  border: 3px solid whitesmoke;
+  padding: 20px;
+}
+
+
+h1{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 8rem;
+
+}
+
+h3, p{
+  font-family: 'PT Mono', monospace;
+}
+
+h2{
+  font-family: 'Permanent Marker', cursive;
+}
