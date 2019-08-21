@@ -44,7 +44,7 @@ const Form = props => {
 
 
                 <div className="formDiv power">
-                    <label htmlFor="power">Power Description</label>
+                    <label htmlFor="power">Describe Powers</label>
                     <textarea
                         name="power"
                         placeholder="Describe powers"
@@ -55,7 +55,7 @@ const Form = props => {
 
 
                 <div className="formDiv">
-                    <button type="submit">Add Member</button>
+                    <button type="submit">Add To Team</button>
                 </div>
             </div>
         </form>
